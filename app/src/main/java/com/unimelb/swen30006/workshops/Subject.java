@@ -7,6 +7,7 @@ public class Subject {
     private String subjectCode;
     private ArrayList<Assignment> assignments;
 
+    // Constructor
     public Subject(String name, String subjectCode, ArrayList<Assignment> assignments) {
         this.name = name;
         this.subjectCode = subjectCode;

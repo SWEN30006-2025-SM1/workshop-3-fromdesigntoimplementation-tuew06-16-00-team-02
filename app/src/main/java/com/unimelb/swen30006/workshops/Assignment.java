@@ -8,6 +8,7 @@ public class Assignment {
     private Date dueDate;
     private int maxAttempts;
 
+    // Constructor
     public Assignment(String description, String name, Date dueDate, int maxAttempts) {
         this.description = description;
         this.name = name;
